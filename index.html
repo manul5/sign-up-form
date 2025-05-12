@@ -31,7 +31,7 @@
                     </div>
                     <div class="camp">
                         <label for="password">PASSWORD</label>
-                        <input type="password" name="password">
+                        <input type="password" class="password" required minlength="6" name="password">
                     </div>
                 </div>
                 <div class="second-part">
@@ -45,10 +45,14 @@
                     </div>
                     <div class="camp">
                         <label for="confirm-password">CONFIRM PASSWORD</label>
-                        <input type="password" name="confirm-password">
+                        <input type="password" class="password" required minlength="6" name="confirm-password">
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="submit">
+            <button type="submit" >Create Account</button>
+            <p>Already have an account? <a href="#">Log in</a></p>
         </div>
     </div>
 </body>

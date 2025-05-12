@@ -20,9 +20,38 @@ p {
     margin: 20px;
 }
 
-.container {
-    
-    
+.submit {
+    margin: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+button {
+    margin-left: 17px;
+    background-color: #596D48;
+    color: white;
+    padding: 10px 30px;
+    border: solid;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+a {
+    color: #596D48;
+    text-decoration: none;
+}
+
+input {
+    border-radius: 5px;
+    border: solid #E5E7EB 2px;
+    width: 240px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 7px;
 }
 
 .text {
@@ -49,7 +78,7 @@ p {
 .form-container {
     display: flex;
     flex-direction: row;
-    gap: 40px;
+    gap: 60px;
 }
 
 .first-part, .second-part {
@@ -69,4 +98,13 @@ label {
 .camp {
     display: flex;
     flex-direction: column;
+}
+
+.password:invalid {
+    border: 1px solid red;
+}
+
+input:focus {
+    border: blue;
+    box-shadow: 5px 5px 10px 0 rgba(110, 110, 110, 0.3);
 }
